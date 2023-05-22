@@ -33,14 +33,23 @@
                                 </constraints>
                                 <state key="normal" title="Done"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="uGT-rC-HPK">
+                                <rect key="frame" x="87" y="418.5" width="240" height="127"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="INB-zI-Thw"/>
+                                    <constraint firstAttribute="width" constant="240" id="ocM-tu-jac"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="13G-Uq-ZAN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gem-do-Cfp"/>
+                            <constraint firstItem="uGT-rC-HPK" firstAttribute="top" secondItem="5Kh-bs-Tjl" secondAttribute="bottom" constant="97" id="QOX-gH-2Jk"/>
                             <constraint firstItem="13G-Uq-ZAN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="ari-om-rcz"/>
                             <constraint firstItem="5Kh-bs-Tjl" firstAttribute="top" secondItem="13G-Uq-ZAN" secondAttribute="bottom" constant="117" id="iCE-Ba-dh8"/>
                             <constraint firstItem="5Kh-bs-Tjl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l7i-Wf-fTd"/>
+                            <constraint firstItem="uGT-rC-HPK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zW4-k6-2wW"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -50,6 +59,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
